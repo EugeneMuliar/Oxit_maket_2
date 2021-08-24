@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'PT Sans';
+    src: url();
+}
+body{
+	width: 980px;
+    margin: 23px auto 0 auto;
+	font-size: 14px;
+	line-height: 22px;
+}
+.page{
+	width: 960px;
+	padding: 0 10px;
+}
+.logo-img{
+    float: left;
+}
