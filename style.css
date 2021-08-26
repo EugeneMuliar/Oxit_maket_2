@@ -96,11 +96,13 @@ menu{
 .news-block h1{
 	line-height: 46px;
 	font-weight: 700;
-	margin-bottom: 37px;
+	margin-bottom: 20px;
 }
 .news{
 	width: 287px;
-	margin: 24px 40px 100px 31px;
+	margin: 10px 40px 100px 20px;
+	display: flex;
+	flex-direction: column;
 }
 .news a{
 	font-family: 'PT Sans', sans-serif;
@@ -116,8 +118,10 @@ menu{
 	font-style: italic;
 }
 
-.arhive{
-	text-align: right !important;
+.archive{
+	justify-content: right;
+	text-align: right;
+	text-decoration: underline !important;
 }
 .article{
 	font-family: 'PT Sans', sans-serif;
